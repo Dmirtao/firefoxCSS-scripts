@@ -1,0 +1,235 @@
+/* HIDDEN ELEMENTS */
+#identity-box,
+#urlbar-icons > image,
+#urlbar-container dropmarker,
+#appmenu-button .button-text,
+#appmenu-button .button-menu-dropmarker
+{
+    display:none!important;
+}
+
+/* BUTTONS */
+#back-button .toolbarbutton-icon,
+#forward-button .toolbarbutton-icon,
+#reload-button .toolbarbutton-icon,
+#urlbar-reload-button .toolbarbutton-icon,
+#stop-button .toolbarbutton-icon,
+#urlbar-stop-button .toolbarbutton-icon,
+#tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon,
+#new-tab-button .toolbarbutton-icon,
+#appmenu-button .button-icon
+{
+    list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYAAADLA1tMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrsVk1IG0EU3s3mx1RXY2qxaa0ULFakUogUESUnPaS0Wlo1oifbQ0AUDx704EGIeBAkUXOzEq0/kHpose2h2IbexUKLFA8VokIPKaghrfmpyfa9dELHcTai0FsXNpPZ+d43b9773tsVFUUR/l+CoM38EUWRXZPg1sCdgjuJDzJBI9gT61kukeyFNgrBJ8n/NC9waii+FGWr9vzUdcKb8VWifBVpG8RpVByXent7rywtLSX6+voKeAB8juuII5sIKk5qAZs/OzvrWVxc3Jufn38zPT39hASGjr5mYWEh0NTUVEDxSTgHuy+Ei5tMWP9IJ5W9enp6isDX+OTk5H3CfcKGR64dGhq6UVtbu7OxsXFzYmIizCPH57iOOMRzHNE0NzcXwsE/GAyGYgjE4MrKyrWDgwOvTqezQTAeMwFMra+vO9rb27/bbDYZ5rq6urpch8OxOzMzc0dFDZlsl2VJhuD1eiM4ms1mNySlGLlZGzYQksvlulVZWbm5trZ2fXR0dCuL7JO4jjjEox1NDGuXW1pa3oI0S6uqql5Fo9Ejv9+/Bwp6HYlElnNyclrZQLjd7tDY2JjZ6XRuw9zY3d39rbOz81IgEIhwykWPGLgNsEd6JHO9mnrC4bDParW6MRDE5m/t0nXf1dWV19jYGIHM3B4fH9+Exwm25jj9RN/f319RXV39aXV1Vfb5fD8yzjY0NBQBZxAcGITDvxgYGNhFc1BKUVtb2zYc0gzzGFXLAsmWEaQc7ujowDKJwv1LpRzKyIHEP+4piN0CXiuMRxTvBeD7CXxmUOjLUCj0zGKxPIV5Lqwdps+FP9SbQyJGcciGhZUbg03jEYd4tOPI0zA3N/fe4/E8pDKlnZqaegAOvSNZPLY/9IRCOCSWYz7wHoGUr3J4aUWYAIdqMbGKoHiNBJOHZQx7f4W5QnwWeM0SyyAGkTLV19cHQe4VWWoPy6gCcYhHO04ZJROJxHOTyfQIDn8XlHARxnuyLLfGYrFlBq+x2+0y9IQg9IRSVAKWSU1Nzfbw8DDrR4qoFRUQJ0qIk3mC108IJjkyMhLc3993CRyAwPmWwAAZscsTqfKwOrJuzNLRUZc6aIxOVADgD3HEOeEVqcyl5Q4dvph+a5SXl8uojJKSEr3KHnqw+0yUIPBKmcGIRCEKrUhRpe6572cGe9r7nQ5G5j0unvM7QiL4835HsJhjnLwekfU6C/Ys17/6uj3LuX4LMACwT+lvQQrZSgAAAABJRU5ErkJggg==")!important;
+}
+#back-button .toolbarbutton-icon
+{ 
+    -moz-image-region:rect(-4px, 8px, 10px, 0)!important;
+}
+#forward-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(-4px, 22px, 10px, 11px)!important;
+}
+#reload-button .toolbarbutton-icon,
+#urlbar-reload-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(-4px, 35px, 11px, 22px)!important;
+}
+#stop-button .toolbarbutton-icon,
+#urlbar-stop-button .toolbarbutton-icon,
+#tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(-4px, 45px, 11px, 32px)!important;
+}
+#new-tab-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 44px, 16px, 4px)!important;
+}
+#new-tab-button
+{
+    max-width:16px!important;
+}
+#appmenu-button .button-icon
+{
+    -moz-image-region:rect(0, 64px, 11px, 48px)!important;
+}
+#main-window[sizemode="normal"] .toolbarbutton-1
+{
+    margin-top:3px!important;
+}
+#main-window *[id*="-button"]:not([disabled]):hover
+{
+    background:black!important;
+}
+
+/* URL BAR */
+#urlbar
+{
+    background:#1a1a1a!important;
+    border:0!important;
+    color:rgba(255,255,255,.8)!important;
+    margin:2px 0px -5px!important;
+    max-height:16px!important;
+    padding:0!important;
+    text-shadow:rgba(0,0,0,.6) 0 0 1px!important;
+    -moz-transition:color .1s ease-in-out;
+}
+#urlbar:hover
+{
+    color:rgba(255,255,255,2.8)!important;
+}
+#urlbar #notification-popup-box
+{
+    background:-moz-linear-gradient(rgba(75,75,75,.2),rgba(255,255,255,.4))!important;
+    border-right:1px solid rgba(255,255,255,.4)!important;
+    max-height:16px!important;
+    max-width:16px!important;
+    padding:0 4px!important;
+    border-radius:0px 0 0 0px!important;
+    -moz-border-image:none!important;
+    -moz-margin-end:0!important;
+}
+#urlbar #notification-popup-box .notification-anchor-icon
+{
+    max-height:10px!important;
+    max-width:10px!important;
+}
+#main-window[sizemode="fullscreen"] #urlbar,
+#main-window[sizemode="maximized"] #urlbar
+{
+    margin:2px 0px 0!important;
+}
+
+/* TABS */
+#main-window #tabbrowser-tabs tab
+{
+    background:#1c1c1c!important;
+    border:0!important;
+    color:rgba(155,155,155,1)!important;
+    text-shadow:rgba(0,0,0,.8) 0 0 1px!important;
+}
+#main-window[sizemode="normal"] #tabbrowser-tabs tab
+{
+    margin:1px 1px 0px!important;
+    min-height:18px!important;
+    max-height:18px!important;
+    padding:0 6px!important;
+    border-radius:0 0 0px 0px!important;
+    font: 11px consolas !important;
+    font-weight: normal !important;
+}
+#main-window[sizemode="maximized"] #tabbrowser-tabs tab,
+#main-window[sizemode="fullscreen"] #tabbrowser-tabs tab
+{
+    border-top:0!important;
+    margin:10px 40px 0!important;
+    max-height:16px!important;
+    padding:0 2px!important;
+    border-radius:0 0 8px 8px!important;
+}
+#main-window #tabbrowser-tabs tab[selected]
+{
+    color:#ffffff!important;
+    background:#2c2c2c!important;
+}
+#main-window #tabbrowser-tabs tab .tab-throbber,
+#main-window #tabbrowser-tabs tab .tab-icon-image
+{
+    max-height:10px!important;
+    max-width:10px!important;
+    margin-top:0px!important;
+    display:none!important;
+}
+#main-window #tabbrowser-tabs tab[fadein]
+{
+    -moz-transition:all .2s ease-in-out!important;
+}
+#main-window #tabbrowser-tabs tab:not([selected]):hover
+{
+    color:rgba(255,255,255,.8)!important;
+}
+#main-window #tabbrowser-tabs tab .tab-close-button
+{
+    opacity:0!important;
+    -moz-transition:all .1s ease-in-out!important;
+}
+#main-window #tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
+{
+    max-height:10px!important;
+    max-width:10px!important;
+}
+#main-window #tabbrowser-tabs tab[selected] .tab-close-button,
+#main-window #tabbrowser-tabs tab:hover .tab-close-button
+{
+    opacity:1!important;
+}
+#main-window #tabbrowser-tabs tab[fadein]:not([pinned])
+{
+    min-width:50px!important;
+    max-width:2000px!important;
+}
+#main-window #tabbrowser-tabs tab[pinned]
+{
+    max-width:24px!important;
+    min-width:24px!important;
+}
+#main-window #tabbrowser-tabs tab[pinned] .tab-close-button
+{
+    display:none!important;
+}
+
+.tabbrowser-tab
+	   {text-align:center!important}
+
+/* MAIN WINDOW */
+#main-window #urlbar,
+#main-window #urlbar-container
+{
+    max-width:200px!important;
+}
+#main-window:not([chromehidden*="toolbar"])[sizemode="normal"]
+{
+    margin-top:0px!important;
+}
+#main-window[sizemode="normal"] #TabsToolbar
+{
+    margin-top:0px!important;
+    margin: 1px 0px -1px!important;
+    padding:0 0px 0px 0px!important;
+    background:rgba(25,25,25,1)!important;
+}
+#main-window[sizemode="fullscreen"] #TabsToolbar,
+#main-window[sizemode="maximized"] #TabsToolbar
+{
+    margin:-5px -14px 0 -20px!important;
+    padding:0 0 2px!important;
+}
+#main-window #browser-border-start
+{
+    background:#000!important;
+    border:0!important;
+}
+#main-window #appmenu-button
+{
+    background:transparent!important;
+    border:0!important;
+    padding:0px 5px!important;
+    min-width:16px!important;
+    box-shadow:none!important;
+}
+#main-window[sizemode="normal"] #appmenu-button
+{
+    margin:-16px -5px -10px!important;
+}
+#main-window[sizemode="fullscreen"] #appmenu-button,
+#main-window[sizemode="maximized"] #appmenu-button
+{
+    margin:0!important;
+}
+
+/*Removes Background-Color From Chrome
+#appcontent,
+#appcontent > #content,
+#appcontent > #content > tabbox > tabpanels
+{
+    background-color:transparent!important;
+}*/

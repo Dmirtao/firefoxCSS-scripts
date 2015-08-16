@@ -1,0 +1,77 @@
+/* AGENT_SHEET */
+/*preview http://puu.sh/8nyGr.png*/
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#main-window #appmenu-button,
+#appmenu-toolbar-button {
+  background: url('http://i.imgur.com/ovoQtdI.png')!important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  width: 1px !important;
+  margin-bottom: 2px !important;
+  margin-left: -20px !important;
+  margin-right: 0px !important;
+  margin-top: 10px !important;
+  height: 17px !important;
+  position: relative !important;
+  -moz-transform: scale(1) !important;
+  opacity: 1 !important;
+  border:none !important;
+} 
+
+#appmenu-button,
+#appmenu-toolbar-button {
+ border:none !important;
+  box-shadow: none !important;
+}
+
+#appmenu-button .button-icon,
+#appmenu-button .button-text,
+#appmenu-button .button-border{
+display: none !important;
+}
+
+#appmenu-button .button-text,
+#appmenu-button .button-menu-dropmarker
+{
+display:none!important;
+}
+
+
+#tabbrowser-tabs tab .tab-close-button {
+opacity:0!important;
+}
+
+
+.tabbrowser-tab {
+
+background: RGBA(251,251,251,.1)!important;
+padding: 4px !important;
+border-radius: 3px !important;
+height: 25px !important;
+width: 0px !important;
+text-align: center !important;
+margin-right: 2px !important;
+color: #fbfbfb !important;
+margin-bottom: 6px !important;
+border: 1px solid RGBA(64,64,64,.3) !important;
+text-shadow:rgba(40,40,40,.4) 0 0 1px!important;
+}
+
+.tabs-newtab-button {
+display: none !important;
+}
+
+#TabsToolbar{
+margin-left: -45px !important;
+}
+
+.tab-icon-image {
+display: none !important;
+}
+.tabbrowser-tab[selected] {
+background: RGBA(251,251,251,.3) !important;
+padding: 4px  !important;
+width: 0px !important;
+}
