@@ -13,7 +13,7 @@ max-width: 100% !important;
 /*remove shitty fog*/
 #TabsToolbar:not(:-moz-lwtheme)::after {display: none;}
 /* Remove the following line if you want the text color of unselected tabs to be black (Firefox default) */
-#TabsToolbar .tabbrowser-tab:not([selected]) {color: rgba(255,255,255,0.9);}
+/* #TabsToolbar .tabbrowser-tab:not([selected]) {color: rgba(255,255,255,0.9);}
 
 /*remove internal border*/
 #main-window:not([chromehidden*="toolbar"])[sizemode="normal"]
@@ -27,7 +27,7 @@ max-width: 100% !important;
 
 
 #TabsToolbar {
-    background: rgb(251,251,251) !important;
+    background: rgb(45,45,45) !important;
     margin-bottom: 0 !important;
 }
 
@@ -58,12 +58,12 @@ display: none !important;
     text-shadow: 0 0 4px rgba(80,80,80,0) !important;
     padding: 0px 0px !important;
     border-radius: 0px !important;
-    background: rgb(251,251,251) !important;
+    background: rgb(43,48,59) !important;
     background-clip: padding-box !important;
     transition: all .1s !important;
     margin-left: 0px !important;
-    color: rgb(100,100,100) !important;
-    font-family: 'montecarlo' !important;
+    color: rgb(192,197,206) !important;
+    font-family: 'consolas' !important;
     font-size: 12px !important;
     min-height: 14px !important;
 }
@@ -87,13 +87,13 @@ display: none !important;
 
 #TabsToolbar .tabbrowser-tab[selected] {
     color: rgba(251,251,251,1) !important;
-    background: rgba(80,101,140,.4) !important;
+    background: rgba(101,115,126,.4) !important;
     background-clip: padding-box !important;
 }
 
 #TabsToolbar .tabs-newtab-button:hover,
 #TabsToolbar .tabbrowser-tab:hover:not([selected]) {
-    background-color: rgba(80,101,140,.4) !important;
+    background-color: rgba(143,161,179,.4) !important;
     color: rgb(251,251,251) !important;
 }
 
@@ -158,20 +158,20 @@ display: none !important;
 
     border: 0px solid #FBFBFB !important;
     text-align: left;
-    background: rgb(251,251,251) !important;
+    background: rgb(43,48,59) !important;
     margin-top: 0px !important;
     margin-left: 5px !important;
     border-radius: 1px;
     margin-bottom: 6px;
     padding: 2px !important;
-    color: rgb(130,130,130) !important;
-    font-family: montecarlo !important;
+    color: rgb(239,241,245) !important;
+    font-family: consolas !important;
     height: 18px !important;
 }
 
 
 #nav-bar {
-    background-color: rgb(251,251,251) !important;
+    background-color: rgb(43,48,59) !important;
     border-bottom: none !important;
     border-top: none !important;
     margin-bottom: -2px !important;
